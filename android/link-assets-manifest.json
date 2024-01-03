@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/.gitkeep",
+      "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "src/assets/fonts/Catamaran-Bold.ttf",
+      "sha1": "a2ad13a78af09c3fcc2f4b10b781abad4d25d435"
+    },
+    {
+      "path": "src/assets/fonts/Catamaran-Medium.ttf",
+      "sha1": "9ad72f2829a533806325fc76ead9e2185bb5a4e8"
+    },
+    {
+      "path": "src/assets/fonts/Catamaran-Regular.ttf",
+      "sha1": "7fc4cb45e45a119325a3d61977fea3b8dc6a03d6"
+    },
+    {
+      "path": "src/assets/fonts/CormorantGaramond-Bold.ttf",
+      "sha1": "5fd393fe6942f1f8edc58749b55e7d58b7103d5e"
+    },
+    {
+      "path": "src/assets/fonts/CormorantGaramond-Regular.ttf",
+      "sha1": "f92f1552c8db88cb94b91f4653fce2cdda275ec2"
+    }
+  ]
+}

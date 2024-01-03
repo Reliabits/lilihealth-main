@@ -1,0 +1,62 @@
+{
+  "extends": ["plugin:react/recommended", "airbnb", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["prettier"],
+  "rules": {
+    "import/extensions": [
+      "error",
+      "always",
+      {
+        "pattern": {
+          "jsx": "never",
+          "tsx": "never",
+          "js": "never",
+          "ts": "never"
+        }
+      }
+    ],
+    "prettier/prettier": ["error"],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx", ".tsx"]
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true
+      }
+    }
+  },
+  "overrides": [
+    {
+      "files": ["*.test.*", "**/*.js", "**/*.jsx", "**/*.tsx"],
+      "rules": {
+        "react/prop-types": "off",
+        "react/jsx-props-no-spreading": "off",
+        "no-nested-ternary": "off",
+        "react/no-array-index-key": "off",
+        "no-unused-expressions": "off",
+        "react/require-default-props": "off",
+        "react/jsx-no-constructed-context-values": "off",
+        "react/no-unstable-nested-components": "off",
+        "react/function-component-definition": "off",
+        "import/prefer-default-export": "off",
+        "default-param-last": "off",
+        "react/jsx-no-bind": "off",
+        "react-hooks/exhaustive-deps": "off",
+        "no-use-before-define": "off"
+      },
+      "globals": {
+        "document": true,
+        "window": true
+      }
+    }
+  ],
+  "parserOptions": {
+    "ecmaVersion": 11
+  }
+}
